@@ -2,6 +2,8 @@
 
 A custom built led matrix with RGB feature of 256 led combinations. LEDS are aranged in 8x32 grid form. Designed from scratch,with custom PCB esp32 control and a 3D printed enclousre.
 this project was built on hand on to learn pcb degin desgined through Easyeda and enclouse modeling through onshape..
+<img width="707" height="397" alt="Screenshot From 2026-04-03 16-19-51" src="https://github.com/user-attachments/assets/06f1cc49-2f73-4fd4-90a0-a23d4d966ba5" />
+<img width="954" height="479" alt="Screenshot From 2026-04-04 23-41-03" src="https://github.com/user-attachments/assets/ab181a44-5643-48f0-84ac-d6fcbb604550" />
 
 # Components
 - 256 RGB LEDs
