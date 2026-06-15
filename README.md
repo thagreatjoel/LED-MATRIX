@@ -1,26 +1,64 @@
-# RGB 256LED MATRIX
 
-A custom built led matrix with RGB feature of 256 led combinations. LEDS are aranged in 8x32 grid form. Designed from scratch,with custom PCB esp32 control and a 3D printed enclousre.
-this project was built on hand on to learn pcb degin desgined through Easyeda and enclouse modeling through onshape..
-<img width="707" height="397" alt="Screenshot From 2026-04-03 16-19-51" src="https://github.com/user-attachments/assets/06f1cc49-2f73-4fd4-90a0-a23d4d966ba5" />
-<img width="954" height="479" alt="Screenshot From 2026-04-04 23-41-03" src="https://github.com/user-attachments/assets/ab181a44-5643-48f0-84ac-d6fcbb604550" />
+# RGB 256 LED Matrix
 
-# Components
-- 256 RGB LEDs
-- 1:4 ratio grid
-- 5v/12v with 10A
-- Level Shifter (5v to 12v)
-- 1000uf cap
-- 470ohm Resistor
-- 2-layered PCB
-- #3d prinder enclosure
--  M2 screw for assembly
+A 256 RGB LED Matrix custom built in a 8x32 grid of individually addressable RGB LEDs. The project was built from scratch with a custom PCB for the ESP32 based controller and a 3D printed enclosure. I did this project as a hands on learning experience to learn about PCB design with EasyEDA, 3D modelling with Onshape and embedded systems development.
 
-# Power Requirement
-| Brightness        | Current |
-|-----------------|-----------|
-| 100%         | 15-16A       |
-| 50%        | 7-8A      |
-| Animations       | 3-5A       |
+## Features
 
+- 256 RGB WS2812B individually addressable LEDs
+- 8x32 LED matrix layout
+- ESP32 controller
+- 2 Layer Custom PCB
+- Custom 3D-printed case
+- Support for custom animations and patterns
+
+## PCB Design
+
+### PCB Layout
+
+> PCB Layout
+
+### Schematic
+
+> Schematic
+
+## Build Photos
+
+### Assembled PCB
+
+> Add build photo here.
+
+## Parts
+
+- 256 × WS2812B RGB LEDs
+- 1 × ESP32 Development Board
+- 1 × 74AHCT125 Logic Level Shifter
+- 1 × 470 Ω Resistor
+- 1 × 1000 µF Capacitor
+- 1 × Custom 2-layer PCB
+- 1 × 3D printed enclosure
+- M2 bolts and spacers
+- 1 × 5V High current supply
+
+## Power Requirements
+
+| Brightness | Current Draw |
+|------------|-------------|
+| 100% | 15–16 A |
+| 50% | 7–8 A |
+| Typical Animations | 3–5 A |
+
+## Bill of Materials (BOM)
+
+| Quantity | Part Name | Link |
+|----------|-----------|------|
+| 256 | WS2812B RGB LED | Add link |
+| 1 | ESP32 Development Board | Add link |
+| 1 | 74AHCT125 Logic Level Shifter | Add link |
+| 1 | 470 Ω Resistor (0805) | Add link |
+| 1 | 1000 µF Capacitor | Add link |
+| 1 | Custom PCB | Gerber Files |
+| 1 | 3D Printed Enclosure | STL Files |
+| 8-12 | M2 Screws | Add link |
+| 1 | 5V 15A Power Supply | Add link |
 
